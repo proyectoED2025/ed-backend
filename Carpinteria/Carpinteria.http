@@ -1,0 +1,6 @@
+@Carpinteria_HostAddress = http://localhost:5280
+
+GET {{Carpinteria_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Carpinteria</name>
+    </assembly>
+    <members>
+        <member name="M:Carpinteria.Controllers.InsumoController.PostPerfil(Carpinteria.DTO_s.PerfilCreateDTO)">
+            <summary>
+            Los valores de serie perfil son  Serie_20 = 0,Serie_30 = 1,Serie_15 = 2,Linea_Probba = 3,Linea_Summa = 4,Linea_Gala = 5,
+            Linea_Gala_CR = 6, Monoblock = 7,TUBO = 8, ANGULOS = 9,U= 10, Mampara =11, Claraboya =12
+            </summary>
+            <returns>POST de Perfil en Stock e Insumos</returns>
+        </member>
+        <member name="M:Carpinteria.Controllers.InsumoController.PostVidrio(Carpinteria.DTO_s.VidrioCreateDTO)">
+            <summary>
+            Los valores de tipoVidrio son Transparente = 0,Fantasia = 1, Laminado = 2,Miniboreal = 3, Templado = 4,Opacid = 5,Espejado = 6, Espejo = 7
+            </summary>
+            <returns>POST de vidrio en Stock e Insumos</returns>
+        </member>
+        <member name="T:Carpinteria.Migrations.Inicial">
+            <inheritdoc />
+        </member>
+        <member name="M:Carpinteria.Migrations.Inicial.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Carpinteria.Migrations.Inicial.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Carpinteria.Migrations.Inicial.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Carpinteria.Migrations.ConfiguracionPKyFK">
+            <inheritdoc />
+        </member>
+        <member name="M:Carpinteria.Migrations.ConfiguracionPKyFK.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Carpinteria.Migrations.ConfiguracionPKyFK.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Carpinteria.Migrations.ConfiguracionPKyFK.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Carpinteria.Migrations.agregarDbSetInsumosNecesarios">
+            <inheritdoc />
+        </member>
+        <member name="M:Carpinteria.Migrations.agregarDbSetInsumosNecesarios.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Carpinteria.Migrations.agregarDbSetInsumosNecesarios.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Carpinteria.Migrations.agregarDbSetInsumosNecesarios.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Carpinteria.Migrations.cambiosExtras">
+            <inheritdoc />
+        </member>
+        <member name="M:Carpinteria.Migrations.cambiosExtras.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Carpinteria.Migrations.cambiosExtras.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Carpinteria.Migrations.cambiosExtras.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Carpinteria.Migrations.NuevoColumnaInsumo">
+            <inheritdoc />
+        </member>
+        <member name="M:Carpinteria.Migrations.NuevoColumnaInsumo.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Carpinteria.Migrations.NuevoColumnaInsumo.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Carpinteria.Migrations.NuevoColumnaInsumo.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Carpinteria.Migrations.AgregamosLaClaseMovimientoStock">
+            <inheritdoc />
+        </member>
+        <member name="M:Carpinteria.Migrations.AgregamosLaClaseMovimientoStock.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Carpinteria.Migrations.AgregamosLaClaseMovimientoStock.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Carpinteria.Migrations.AgregamosLaClaseMovimientoStock.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Carpinteria.Migrations.cambioDeNombreColEntidadAInsumo">
+            <inheritdoc />
+        </member>
+        <member name="M:Carpinteria.Migrations.cambioDeNombreColEntidadAInsumo.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Carpinteria.Migrations.cambioDeNombreColEntidadAInsumo.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Carpinteria.Migrations.cambioDeNombreColEntidadAInsumo.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
