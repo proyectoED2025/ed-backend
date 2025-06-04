@@ -12,6 +12,8 @@ namespace Carpinteria.Controllers
 
     [Route("api/[controller]")]
     [ApiController]
+
+    ///COMENTARIO CHOTO
     public class InsumoController : ControllerBase
     {
         public IAltaInsumo AltaInsumo { get; set; }
